@@ -1,0 +1,56 @@
+<!-- ####### HEY, I AM THE SOURCE EDITOR! #########-->
+<h1 style="text-align: center;"><strong>CHALLAN</strong></h1>
+<hr />
+<p><strong>No.: {{challan_no}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date: {{date}}</strong></p>
+<hr />
+<p>NAME: {{name}}</p>
+<p>ADDRESS: {{address}}</p>
+<p>MOBILE: {{phone_number}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Date: {{date}}</p>
+<table style="height: 288px; width: 96.7495%; border-collapse: collapse; border-style: solid;" border="1">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 2.241%; height: 18px; text-align: center;"><strong>SL.NO</strong></td>
+<td style="width: 45.3716%; height: 18px; text-align: center;"><strong>&nbsp;DESCRIPTION OF SERVICE</strong></td>
+<td style="width: 4.8675%; height: 18px; text-align: center;"><strong>RATE</strong></td>
+<td style="width: 6.82055%; height: 18px; text-align: center;"><strong>AMOUNT</strong></td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 2.241%; height: 42px;">&nbsp;{{N1}}</td>
+<td style="width: 45.3716%; height: 42px;">&nbsp;{{Description1}}</td>
+<td style="width: 4.8675%; height: 42px; text-align: center;">&nbsp;{{R1}}</td>
+<td style="width: 6.82055%; height: 42px; text-align: center;">&nbsp;{{A1}}</td>
+</tr>
+
+{add_row}
+
+
+<tr style="height: 31px;">
+<td style="width: 2.241%; height: 39px;">&nbsp;</td>
+<td style="width: 45.3716%; height: 39px; text-align: right;">TOTAL</td>
+<td style="width: 4.8675%; height: 39px; text-align: center;">{{total_R}}</td>
+<td style="width: 6.82055%; height: 39px;">&nbsp;{{total_A}}</td>
+</tr>
+<tr style="height: 105px;">
+<td style="width: 47.6126%; height: 105px; text-align: right;" colspan="2">
+<p></p>
+<p>Other Charges</p>
+<p></p>
+<p>TOTAL</p>
+</td>
+<td style="width: 4.8675%; text-align: center; height: 105px;" colspan="2">
+<table border="1" style="border-collapse: collapse; width: 101.074%; height: 120px;" height="79">
+<tbody>
+<tr style="height: 53px;">
+<td style="width: 50.8835%; height: 53px;">{{OR}}</td>
+<td style="width: 46.7355%; height: 53px;">{{OA}}</td>
+</tr>
+<tr style="height: 49px;">
+<td style="width: 50.8835%; height: 49px;">{{TR}}</td>
+<td style="width: 46.7355%; height: 49px;">{{TA}}</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
